@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: "Roboto Mono", monospace;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
   position: relative;
   font-size: 16px;
   font-weight: 400;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #000;
+  color: rgb(253, 253, 253);
 }
 @media screen and (max-width: 992px) {
   #fh5co-header .navbar-brand {
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header .navbar-default {
   border: transparent;
-  background: #fff;
+  background: #080f32;
   margin: 0;
   padding: 10px 70px;
   -webkit-border-radius: 0px;
@@ -400,14 +400,22 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   line-height: 20px;
 }
+#fh5co-home .text-inner h1 .titre_presentation{
+  font-size: 90px;
+  text-transform: none;
+  letter-spacing: .2em;
+  line-height: 100px;
+  font-family: Georgia, serif;
+}
+
 #fh5co-home .text-inner h1 .big {
-  font-size: 58px;
+  font-size: 100px;
   text-transform: none;
   letter-spacing: .1em;
 }
 @media screen and (max-width: 768px) {
   #fh5co-home .text-inner h1 .big {
-    font-size: 30px;
+    font-size: 100px;
   }
 }
 #fh5co-home .text-inner h1 .medium {
