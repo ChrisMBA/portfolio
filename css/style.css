@@ -19,7 +19,7 @@ body {
   color: #8f989f;
   height: 100%;
   position: relative;
-  background: #F4F7F7;
+  background: #080f32;
 }
 
 #page {
@@ -66,7 +66,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #3EC483;
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   margin: 0 0 30px 0;
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 2px;
 }
 #fh5co-header #navbar li a:hover {
-  color: #000;
+  color: #3EC483;
 }
 #fh5co-header #navbar li a:hover span:before {
   visibility: visible;
@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   line-height: 20px;
 }
-#fh5co-home .text-inner h1 .titre_presentation{
+#fh5co-home .text-inner h1 .titre_acceuil{
   font-size: 90px;
   text-transform: none;
   letter-spacing: .2em;
@@ -422,10 +422,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   text-transform: none;
   letter-spacing: .1em;
+  line-height: 105px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-home .text-inner h1 .medium {
-    font-size: 30px;
+   font-size: 30px;
+   line-height: 105px;
   }
 }
 #fh5co-home .text-inner h2 {
@@ -833,7 +835,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0;
   font-size: 30px;
   height: 130px;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 .fh5co-services .fh5co-post h3 {
   font-size: 20px;
@@ -843,6 +845,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 12px 30px;
   background: #00dee8;
   color: #fff;
+}
+
+.fh5co-services .titre_presentation {
+  font-size: 50px;
+  margin-bottom: 15px;
 }
 
 .fh5co-counters {
