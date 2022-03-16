@@ -61,8 +61,12 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-bottom: 1.5em;
-  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: #000000;
+  position: relative;
+  display: block;
+  padding-bottom: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ::selection {
   color: #fff;
-  background: #00ADB5;
+  background: #112324;
 }
 
 #fh5co-header {
@@ -594,7 +598,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 .fh5co-portfolio .portfolio-text h3 {
-  font-size: 20px;
+  font-size: 25px;
+  text-decoration : underline;
+  /* border: 5px solid #e7e7e7; */
 }
 .fh5co-portfolio .portfolio-text .stuff {
   margin: 0;
@@ -762,9 +768,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing__title {
-  width: 100%;
-  margin: 0 0 2em 0;
-  padding: 0;
+  font-size: 55px;
+  text-transform: none;
+  letter-spacing: .2em;
+  line-height: 100px;
+  font-family: Georgia, serif;
 }
 
 .pricing__price {
@@ -1529,6 +1537,38 @@ h1, h2, h3, h4, h5, h6 {
 .button5:hover {
   background-color: #555555;
   color: white;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+
+.encadre {
+  border: 5px solid #3EC483;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  /* width: 300px; */
+  height: 1000px;
+}
+
+.alternate {
+  box-sizing: border-box;
+}
+
+.sous-text {
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 2;
+  color: #000000;
+  position: relative;
+  display: block;
+  padding-bottom: 10px;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*# sourceMappingURL=style.css.map */
