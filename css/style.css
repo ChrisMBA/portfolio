@@ -488,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-counters,
 #fh5co-pricing,
 #fh5co-blog {
-  padding: 8em 0;
+  padding: 3.5em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services,
@@ -1553,7 +1553,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(255, 255, 255);
   padding: 15px;
   /* width: 300px; */
-  height: 1000px;
+  height: 700px;
 }
 
 .alternate {
@@ -1569,6 +1569,18 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding-bottom: 10px;
   font-family: "Roboto Mono", monospace;
+}
+
+.sous-text-left {
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 2;
+  color: #000000;
+  position: relative;
+  display: block;
+  padding-bottom: 10px;
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
